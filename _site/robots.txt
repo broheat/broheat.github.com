@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://broheat.github.io//sitemap.xml
