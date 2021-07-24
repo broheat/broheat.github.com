@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>부의 추월차선 unscripted - 86년생 백수의 고군분투</title>
-<meta name="description" content="1. 최신 기술 공부하기">
+<!-- begin _includes/seo.html --><title>노마드코드 - 카카오톡 클론 코딩 - 86년생 백수의 고군분투</title>
+<meta name="description" content="Inline">
 
 
   <meta name="author" content="박형렬">
@@ -22,30 +22,30 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="86년생 백수의 고군분투">
-<meta property="og:title" content="부의 추월차선 unscripted">
-<meta property="og:url" content="https://broheat.github.io//%EB%8F%85%EC%84%9C/unscripted/">
+<meta property="og:title" content="노마드코드 - 카카오톡 클론 코딩">
+<meta property="og:url" content="https://broheat.github.io//css/">
 
 
-  <meta property="og:description" content="1. 최신 기술 공부하기">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2021-07-13T00:00:00+09:00">
+  <meta property="og:description" content="Inline">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2021-07-21T00:00:00+09:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="https://broheat.github.io//%EB%8F%85%EC%84%9C/unscripted/">
+
+<link rel="canonical" href="https://broheat.github.io//css/">
 
 
 
@@ -175,17 +175,7 @@
         <span class="sep">/</span>
       
       
-        
-        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/categories/#%EB%8F%85%EC%84%9C" itemprop="item"><span itemprop="name">%eb%8f%85%ec%84%9c</span></a>
-          <meta itemprop="position" content="2" />
-        </li>
-        <span class="sep">/</span>
-      
-    
-      
-      
-        <li class="current">부의 추월차선 unscripted</li>
+        <li class="current">노마드코드 - 카카오톡 클론 코딩</li>
       
     
   </ol>
@@ -302,15 +292,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="부의 추월차선 unscripted">
-    <meta itemprop="description" content="1. 최신 기술 공부하기">
-    <meta itemprop="datePublished" content="2021-07-13T00:00:00+09:00">
+    <meta itemprop="headline" content="노마드코드 - 카카오톡 클론 코딩">
+    <meta itemprop="description" content="Inline">
+    <meta itemprop="datePublished" content="2021-07-21T00:00:00+09:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">부의 추월차선 unscripted
+          <h1 id="page-title" class="page__title" itemprop="headline">노마드코드 - 카카오톡 클론 코딩
 </h1>
           
 
@@ -341,22 +331,43 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On This Page</h4></header>
-              <ul class="toc__menu"><li><a href="#1-최신-기술-공부하기">1. 최신 기술 공부하기</a></li><li><a href="#2-최신-뉴스-게시하기">2. 최신 뉴스 게시하기</a></li><li><a href="#3-토이-프로젝트-소개하기">3. 토이 프로젝트 소개하기</a></li></ul>
+              <ul class="toc__menu"><li><a href="#inline">Inline</a></li><li><a href="#block">Block</a></li></ul>
 
             </nav>
           </aside>
         
-        <h2 id="1-최신-기술-공부하기">1. 최신 기술 공부하기</h2>
+        <h2 id="inline">Inline</h2>
 
-<p>하이하이</p>
+<p>Inline은 height와 width를 가질수 없음. Margin(box의 border로 부터 바깥에 있는 공간)은 좌우만 적용됨.</p>
 
-<h2 id="2-최신-뉴스-게시하기">2. 최신 뉴스 게시하기</h2>
+<h2 id="block">Block</h2>
 
-<p>하이하이</p>
+<p>Block을 Inline으로 바꿀려면</p>
 
-<h2 id="3-토이-프로젝트-소개하기">3. 토이 프로젝트 소개하기</h2>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="n">Inline</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
-<p>하이하이</p>
+<p>반대는</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Inline이면서, block으로 사용하기 위해서는</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="n">Inline-block</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>width와 height를 가질수 있으면서 옆에 다른 element가 올 수 있지만, Inline-block은 Suck!!</p>
+
+<p>그 이유는 element사이에 의도치 않은 빈공간이 생성됨. 그리고 반응형 디자인을 지원하지 않음.</p>
+
+<p>Inline-block 대신 flexbox를 사용하자.</p>
 
         
       </section>
@@ -375,7 +386,7 @@
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/#%EB%8F%85%EC%84%9C" class="page__taxonomy-item" rel="tag">독서</a>
+      <a href="/categories/#css" class="page__taxonomy-item" rel="tag">CSS</a>
     
     </span>
   </p>
@@ -383,7 +394,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2021-07-13T00:00:00+09:00">July 13, 2021</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2021-07-21T00:00:00+09:00">July 21, 2021</time></p>
 
 
       </footer>
@@ -393,22 +404,22 @@
     <h4 class="page__share-title">공유하기</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=%EB%B6%80%EC%9D%98+%EC%B6%94%EC%9B%94%EC%B0%A8%EC%84%A0+unscripted%20https%3A%2F%2Fbroheat.github.io%2F%2F%25EB%258F%2585%25EC%2584%259C%2Funscripted%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=%EB%85%B8%EB%A7%88%EB%93%9C%EC%BD%94%EB%93%9C+-+%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1+%ED%81%B4%EB%A1%A0+%EC%BD%94%EB%94%A9%20https%3A%2F%2Fbroheat.github.io%2F%2Fcss%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbroheat.github.io%2F%2F%25EB%258F%2585%25EC%2584%259C%2Funscripted%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbroheat.github.io%2F%2Fcss%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fbroheat.github.io%2F%2F%25EB%258F%2585%25EC%2584%259C%2Funscripted%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fbroheat.github.io%2F%2Fcss%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">이전</a>
+      <a href="/%EB%8F%85%EC%84%9C/unscripted/" class="pagination--pager" title="부의 추월차선 unscripted
+">이전</a>
     
     
-      <a href="/css/" class="pagination--pager" title="노마드코드 - 카카오톡 클론 코딩
-">다음</a>
+      <a href="#" class="pagination--pager disabled">다음</a>
     
   </nav>
 
@@ -432,7 +443,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/css/" rel="permalink">노마드코드 - 카카오톡 클론 코딩
+        <a href="/%EB%8F%85%EC%84%9C/unscripted/" rel="permalink">부의 추월차선 unscripted
 </a>
       
     </h2>
@@ -457,7 +468,7 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">Inline
+    <p class="archive__item-excerpt" itemprop="description">1. 최신 기술 공부하기
 </p>
   </article>
 </div>
