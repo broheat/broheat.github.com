@@ -1,0 +1,42 @@
+I"�
+<h2 id="바닐라-js-강의3032">바닐라 JS 강의(#3.0~#3.2).</h2>
+
+<p>Javascript로 정보를 가지고 올 수 있는 방법은 document 객체와 element를 가져오는 함수를 이용 하는 것.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">title</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">title</span><span class="dl">"</span><span class="p">);</span>
+<span class="nx">title</span><span class="p">.</span><span class="nx">innerText</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Got you</span><span class="dl">"</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>getElementById 함수를 통해 id로 element를 가져올수 있다.</p>
+
+<p>console.dir()을 이용하면 객체의 속성을 계층 구조로 출력 할 수 있다.</p>
+
+<p>element를 가장 쿨하게 가져오는 방법은</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">.Hello h1</span><span class="dl">"</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>의미는 class Hello내의 h1 element를 가져온다. 중복 되는 것이 있으면,<br /> 첫번째것만 가져온다.
+위 방식은 element를 CSS 방식으로 검색 하는것.</p>
+
+<p>querySelectorAll은 모든 것을 가져온다.</p>
+
+<h2 id="투자-공부">투자 공부.</h2>
+
+<p><code class="language-plaintext highlighter-rouge">동박</code>의 HS code는 7410.11으로 추측됨.<br />
+일진머티리얼의 본사는 전북 익산시<br />
+sk넥실리스의 본사는 전북 정읍시</p>
+
+<p><code class="language-plaintext highlighter-rouge">양극재</code>의 HS code는 2841.90으로 추측됨.<br />
+엘앤에프의 본사는 대구 달서구<br />
+에코프로비엠의 본사는 충북 청주시.</p>
+
+<p><code class="language-plaintext highlighter-rouge">실리콘음극재</code>의 HS code는 3824.99로 추측됨.<br />
+대주전자재료의 본사는 경기도 시흥시.</p>
+
+<p><code class="language-plaintext highlighter-rouge">분리막</code>의 HS code는 3921.90으로 추측됨.<br />
+SK 아이이테크놀로지는 충북 증평군 과 청주시.</p>
+
+<p><code class="language-plaintext highlighter-rouge">CNT 도전재</code>의 HS code는 3824.99로 추측됨.<br />
+나노신조재의 본사는 대전 유성구.</p>
+:ET
