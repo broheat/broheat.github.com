@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Today I do (2021-08-02)",
-        "excerpt":"바닐라 JS 강의(#3.3~#3.38) Event가 발생하면 특정 함수가 작동 할 수 있게 하려면 element.addEventListener(\"click\", function) 위 코드는 사용자가 element를 클릭 하였을 때, function이 동작 하게 하는 코드이다. 주의점은 function 부분에 function 동작 함수가 아니라, function 이름을 넣는것. function() x function o console.dir(element)를 하면 다양한 property가 나온다. 여기서 앞에 on이 붙은 것이...","categories": ["Today I do","투자","coding"],
+        "excerpt":"바닐라 JS 강의(#3.3~#3.8) Event가 발생하면 특정 함수가 작동 할 수 있게 하려면 element.addEventListener(\"click\", function) 위 코드는 사용자가 element를 클릭 하였을 때, function이 동작 하게 하는 코드이다. 주의점은 function 부분에 function 동작 함수가 아니라, function 이름을 넣는것. function() x function o console.dir(element)를 하면 다양한 property가 나온다. 여기서 앞에 on이 붙은 것이...","categories": ["Today I do","투자","coding"],
         "tags": [],
         "url": "/today%20i%20do/%ED%88%AC%EC%9E%90/coding/",
         "teaser": null

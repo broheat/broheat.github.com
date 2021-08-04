@@ -1,0 +1,52 @@
+I"`<h2 id="바닐라-js-강의3338">바닐라 JS 강의(#3.3~#3.8)</h2>
+
+<p>Event가 발생하면 특정 함수가 작동 할 수 있게 하려면</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">element</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">click</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>위 코드는 사용자가 element를 클릭 하였을 때, function이 동작 하게 하는 코드이다.<br />
+주의점은 function 부분에 function 동작 함수가 아니라, function 이름을 넣는것.</p>
+
+<blockquote>
+  <p>function() x<br />
+function o</p>
+</blockquote>
+
+<p>console.dir(element)를 하면 다양한 property가 나온다. 여기서 앞에 on이 붙은 것이 element listener이다.</p>
+
+<p>예를 들어, onmouseleave이면 아래와 같이 쓸수 있다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">element</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">mouseleave</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>위 코드는 다음과 같이 변경 가능 하다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">element</span><span class="p">.</span><span class="nx">onmouseleave</span> <span class="o">=</span> <span class="kd">function</span>
+</code></pre></div></div>
+
+<p>전자의 코드를 더 선호 하는데 그 이유는?</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">element</span><span class="p">.</span><span class="nx">removeEventListener</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>로 event listener를 제거 가능하다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">windows</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">resize</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>위 코드를 통해 창의 사이즈가 변경 되면 function이 실행되게 할수 있다.</p>
+
+<p>windows에 어떤 event가 있는 지 알기 위해 <a href="https://developer.mozilla.org/ko/docs/Web/API/window">MDN Web API</a></p>
+
+<p>함수를 통해 className 변경하여, CSS적용을 하다보면, 기존 className이 변경되면서, bug가 발생 할수 있다.
+이것을 방지 하기 위해, <code class="language-plaintext highlighter-rouge">classList.contains()</code> <code class="language-plaintext highlighter-rouge">classList.add()</code> <code class="language-plaintext highlighter-rouge">classList.remove()</code> 쓰자.</p>
+
+<p>add와 remove를 한번에 하기 위해서는 <code class="language-plaintext highlighter-rouge">classList.toggle()</code>을 쓰자.
+className이 없으면 추가가 되고, 있으면 삭제가 된다.</p>
+
+<h2 id="투자-공부">투자 공부.</h2>
+
+<p><code class="language-plaintext highlighter-rouge">전기차 충전기</code>의 HS code는 8504.40으로 추측됨.<br />
+시그넷이브이의 본사는 전남 영광군.</p>
+:ET
