@@ -1,0 +1,13 @@
+I"U<h2 id="바닐라-js-강의4045">바닐라 JS 강의(#4.0~4.5)</h2>
+
+<p>함수를 호출 할 때, function이 아니라 function()로 호출 하면 브라우저가 이 코드를 보자마자 자동으로 function을 실행시킨다.</p>
+
+<p>모든 EventListener에서 function의 첫번째 argument는 항상 막 벌어진 일들에 대한 정보. 예를 들어, click.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">onLoginSubmit</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">event</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">();</span> <span class="c1">/// 어떤 event의 기본 행동 발생하지 않도록 하는것.</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">event</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="nx">loginForm</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">click</span><span class="dl">"</span><span class="p">,</span> <span class="nx">onLoginSubmit</span><span class="p">);</span>
+</code></pre></div></div>
+:ET
