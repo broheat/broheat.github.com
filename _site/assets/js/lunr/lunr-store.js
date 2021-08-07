@@ -30,7 +30,7 @@ var store = [{
         "teaser": null
       },{
         "title": "2021-08-07",
-        "excerpt":"삶의 계획   해야 할 것들      독서            한 챕터 읽고 정리.           운동   투자            삼프로 요약 정리.       스프레드시트로 한달에 한번 자산 정리.           코딩            Nomad coder 챌린지 도전.          ","categories": ["Today I do","Plan"],
+        "excerpt":"해야 할 것들.      독서            한 챕터 읽고 정리.           운동   투자            삼프로 요약 정리.       스프레드시트로 한달에 한번 자산 정리.           코딩            Nomad coder 챌린지 도전.          ","categories": ["Today I do","Plan"],
         "tags": [],
         "url": "/today%20i%20do/plan/Plan/",
         "teaser": null
