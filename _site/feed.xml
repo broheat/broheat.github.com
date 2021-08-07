@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://broheat.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://broheat.github.io//" rel="alternate" type="text/html" /><updated>2021-08-05T23:45:47+09:00</updated><id>https://broheat.github.io//feed.xml</id><title type="html">86년생 백수의 고군분투</title><subtitle>성장 스토리</subtitle><author><name>박형렬</name></author><entry><title type="html">2021-08-04</title><link href="https://broheat.github.io//today%20i%20do/javascript/2021-08-04/" rel="alternate" type="text/html" title="2021-08-04" /><published>2021-08-04T00:00:00+09:00</published><updated>2021-08-04T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/javascript/2021-08-04</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/javascript/2021-08-04/">&lt;h2 id=&quot;바닐라-js-강의46&quot;&gt;바닐라 JS 강의(#4.6)&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://broheat.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://broheat.github.io//" rel="alternate" type="text/html" /><updated>2021-08-07T16:24:25+09:00</updated><id>https://broheat.github.io//feed.xml</id><title type="html">86년생 백수의 고군분투</title><subtitle>성장 스토리</subtitle><author><name>박형렬</name></author><entry><title type="html">부자아빠 가난한 아빠 Chapter 1</title><link href="https://broheat.github.io//reading/chapter-1/" rel="alternate" type="text/html" title="부자아빠 가난한 아빠 Chapter 1" /><published>2021-08-07T00:00:00+09:00</published><updated>2021-08-07T00:00:00+09:00</updated><id>https://broheat.github.io//reading/chapter-1</id><content type="html" xml:base="https://broheat.github.io//reading/chapter-1/">&lt;p&gt;부자아빠 가난한 아빠 Chapter 1을 읽은 후&lt;/p&gt;</content><author><name>박형렬</name></author><category term="reading" /><summary type="html">부자아빠 가난한 아빠 Chapter 1을 읽은 후</summary></entry><entry><title type="html">2021-08-07</title><link href="https://broheat.github.io//today%20i%20do/plan/Plan/" rel="alternate" type="text/html" title="2021-08-07" /><published>2021-08-07T00:00:00+09:00</published><updated>2021-08-07T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/plan/Plan</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/plan/Plan/">&lt;h2 id=&quot;삶의-계획&quot;&gt;삶의 계획&lt;/h2&gt;
+
+&lt;p&gt;해야 할 것들&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;독서
+    &lt;ul&gt;
+      &lt;li&gt;한 챕터 읽고 정리.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;운동&lt;/li&gt;
+  &lt;li&gt;투자
+    &lt;ul&gt;
+      &lt;li&gt;삼프로 요약 정리.&lt;/li&gt;
+      &lt;li&gt;스프레드시트로 한달에 한번 자산 정리.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;코딩
+    &lt;ul&gt;
+      &lt;li&gt;Nomad coder 챌린지 도전.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>박형렬</name></author><category term="Today I do" /><category term="Plan" /><summary type="html">삶의 계획</summary></entry><entry><title type="html">2021-08-04</title><link href="https://broheat.github.io//today%20i%20do/Today-I-do/" rel="alternate" type="text/html" title="2021-08-04" /><published>2021-08-04T00:00:00+09:00</published><updated>2021-08-04T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/Today%20I%20do</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/Today-I-do/">&lt;h2 id=&quot;바닐라-js-강의46&quot;&gt;바닐라 JS 강의(#4.6)&lt;/h2&gt;
 
 &lt;p&gt;localStorage는 우리가 브라우저에 뭔가를 저장할 수 있게 하고, 나중에 가져다 쓸 수 있다.
 브라우저에 저장하는 방법은 다음과 같다.&lt;/p&gt;
@@ -16,7 +38,7 @@
 &lt;p&gt;그리고 저장된 정보를 제거 하는 방법은&lt;/p&gt;
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>박형렬</name></author><category term="Today I do" /><category term="JavaScript" /><summary type="html">바닐라 JS 강의(#4.6)</summary></entry><entry><title type="html">2021-08-03</title><link href="https://broheat.github.io//today%20i%20do/javascript/2021-08-03/" rel="alternate" type="text/html" title="2021-08-03" /><published>2021-08-03T00:00:00+09:00</published><updated>2021-08-03T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/javascript/2021-08-03</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/javascript/2021-08-03/">&lt;h2 id=&quot;바닐라-js-강의4045&quot;&gt;바닐라 JS 강의(#4.0~4.5)&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>박형렬</name></author><category term="Today I do" /><category term="JavaScript" /><summary type="html">바닐라 JS 강의(#4.6)</summary></entry><entry><title type="html">2021-08-03</title><link href="https://broheat.github.io//today%20i%20do/Today-I-do/" rel="alternate" type="text/html" title="2021-08-03" /><published>2021-08-03T00:00:00+09:00</published><updated>2021-08-03T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/Today%20I%20do</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/Today-I-do/">&lt;h2 id=&quot;바닐라-js-강의4045&quot;&gt;바닐라 JS 강의(#4.0~4.5)&lt;/h2&gt;
 
 &lt;p&gt;함수를 호출 할 때, function이 아니라 function()로 호출 하면 브라우저가 이 코드를 보자마자 자동으로 function을 실행시킨다.&lt;/p&gt;
 
@@ -27,7 +49,7 @@
   &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;loginForm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onLoginSubmit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>박형렬</name></author><category term="Today I do" /><category term="JavaScript" /><summary type="html">바닐라 JS 강의(#4.0~4.5)</summary></entry><entry><title type="html">2021-08-02</title><link href="https://broheat.github.io//today%20i%20do/invest/javascript/2021-08-02/" rel="alternate" type="text/html" title="2021-08-02" /><published>2021-08-02T00:00:00+09:00</published><updated>2021-08-02T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/invest/javascript/2021-08-02</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/invest/javascript/2021-08-02/">&lt;h2 id=&quot;바닐라-js-강의3338&quot;&gt;바닐라 JS 강의(#3.3~#3.8)&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>박형렬</name></author><category term="Today I do" /><category term="JavaScript" /><summary type="html">바닐라 JS 강의(#4.0~4.5)</summary></entry><entry><title type="html">2021-08-02</title><link href="https://broheat.github.io//today%20i%20do/Today-I-do/" rel="alternate" type="text/html" title="2021-08-02" /><published>2021-08-02T00:00:00+09:00</published><updated>2021-08-02T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/Today%20I%20do</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/Today-I-do/">&lt;h2 id=&quot;바닐라-js-강의3338&quot;&gt;바닐라 JS 강의(#3.3~#3.8)&lt;/h2&gt;
 
 &lt;p&gt;Event가 발생하면 특정 함수가 작동 할 수 있게 하려면&lt;/p&gt;
 
@@ -77,7 +99,7 @@ className이 없으면 추가가 되고, 있으면 삭제가 된다.&lt;/p&gt;
 &lt;h2 id=&quot;투자-공부&quot;&gt;투자 공부.&lt;/h2&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;전기차 충전기&lt;/code&gt;의 HS code는 8504.40으로 추측됨.&lt;br /&gt;
-시그넷이브이의 본사는 전남 영광군.&lt;/p&gt;</content><author><name>박형렬</name></author><category term="Today I do" /><category term="Invest" /><category term="JavaScript" /><summary type="html">바닐라 JS 강의(#3.3~#3.8)</summary></entry><entry><title type="html">2021-08-01</title><link href="https://broheat.github.io//today%20i%20do/invest/javascript/2021-08-01/" rel="alternate" type="text/html" title="2021-08-01" /><published>2021-08-01T00:00:00+09:00</published><updated>2021-08-01T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/invest/javascript/2021-08-01</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/invest/javascript/2021-08-01/">&lt;h2 id=&quot;바닐라-js-강의3032&quot;&gt;바닐라 JS 강의(#3.0~#3.2).&lt;/h2&gt;
+시그넷이브이의 본사는 전남 영광군.&lt;/p&gt;</content><author><name>박형렬</name></author><category term="Today I do" /><category term="Invest" /><category term="JavaScript" /><summary type="html">바닐라 JS 강의(#3.3~#3.8)</summary></entry><entry><title type="html">2021-08-01</title><link href="https://broheat.github.io//today%20i%20do/Today-I-do/" rel="alternate" type="text/html" title="2021-08-01" /><published>2021-08-01T00:00:00+09:00</published><updated>2021-08-01T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/Today%20I%20do</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/Today-I-do/">&lt;h2 id=&quot;바닐라-js-강의3032&quot;&gt;바닐라 JS 강의(#3.0~#3.2).&lt;/h2&gt;
 
 &lt;p&gt;Javascript로 정보를 가지고 올 수 있는 방법은 document 객체와 element를 가져오는 함수를 이용 하는 것.&lt;/p&gt;
 
