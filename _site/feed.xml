@@ -1,53 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://broheat.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://broheat.github.io//" rel="alternate" type="text/html" /><updated>2021-08-07T23:17:11+09:00</updated><id>https://broheat.github.io//feed.xml</id><title type="html">86년생 백수의 고군분투</title><subtitle>성장 스토리</subtitle><author><name>박형렬</name></author><entry><title type="html">부자아빠 가난한 아빠 Chapter 1</title><link href="https://broheat.github.io//reading/chapter-1/" rel="alternate" type="text/html" title="부자아빠 가난한 아빠 Chapter 1" /><published>2021-08-07T00:00:00+09:00</published><updated>2021-08-07T00:00:00+09:00</updated><id>https://broheat.github.io//reading/chapter-1</id><content type="html" xml:base="https://broheat.github.io//reading/chapter-1/">&lt;p&gt;부자아빠 가난한 아빠 Chapter 1을 읽은 후&lt;/p&gt;</content><author><name>박형렬</name></author><category term="reading" /><summary type="html">부자아빠 가난한 아빠 Chapter 1을 읽은 후</summary></entry><entry><title type="html">2021-08-07</title><link href="https://broheat.github.io//today%20i%20do/plan/Plan/" rel="alternate" type="text/html" title="2021-08-07" /><published>2021-08-07T00:00:00+09:00</published><updated>2021-08-07T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/plan/Plan</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/plan/Plan/">&lt;h2 id=&quot;해야-할-것들&quot;&gt;해야 할 것들.&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;독서
-    &lt;ul&gt;
-      &lt;li&gt;한 챕터 읽고 정리.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;운동&lt;/li&gt;
-  &lt;li&gt;투자
-    &lt;ul&gt;
-      &lt;li&gt;삼프로 요약 정리.&lt;/li&gt;
-      &lt;li&gt;스프레드시트로 한달에 한번 자산 정리.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;코딩
-    &lt;ul&gt;
-      &lt;li&gt;Nomad coder 챌린지 도전.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>박형렬</name></author><category term="Today I do" /><category term="Plan" /><summary type="html">해야 할 것들.</summary></entry><entry><title type="html">2021-08-04</title><link href="https://broheat.github.io//today%20i%20do/Today-I-do/" rel="alternate" type="text/html" title="2021-08-04" /><published>2021-08-04T00:00:00+09:00</published><updated>2021-08-04T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/Today%20I%20do</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/Today-I-do/">&lt;h2 id=&quot;바닐라-js-강의46&quot;&gt;바닐라 JS 강의(#4.6)&lt;/h2&gt;
-
-&lt;p&gt;localStorage는 우리가 브라우저에 뭔가를 저장할 수 있게 하고, 나중에 가져다 쓸 수 있다.
-브라우저에 저장하는 방법은 다음과 같다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;nico&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;첫번째 인자는 key, 두번째 인자는 value.&lt;/p&gt;
-
-&lt;p&gt;브라우저에 저장 된 정보를 불러오는 방법은 다음과 같다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;그리고 저장된 정보를 제거 하는 방법은&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>박형렬</name></author><category term="Today I do" /><category term="JavaScript" /><summary type="html">바닐라 JS 강의(#4.6)</summary></entry><entry><title type="html">2021-08-03</title><link href="https://broheat.github.io//today%20i%20do/Today-I-do/" rel="alternate" type="text/html" title="2021-08-03" /><published>2021-08-03T00:00:00+09:00</published><updated>2021-08-03T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/Today%20I%20do</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/Today-I-do/">&lt;h2 id=&quot;바닐라-js-강의4045&quot;&gt;바닐라 JS 강의(#4.0~4.5)&lt;/h2&gt;
-
-&lt;p&gt;함수를 호출 할 때, function이 아니라 function()로 호출 하면 브라우저가 이 코드를 보자마자 자동으로 function을 실행시킨다.&lt;/p&gt;
-
-&lt;p&gt;모든 EventListener에서 function의 첫번째 argument는 항상 막 벌어진 일들에 대한 정보. 예를 들어, click.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onLoginSubmit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;/// 어떤 event의 기본 행동 발생하지 않도록 하는것.&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;loginForm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onLoginSubmit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>박형렬</name></author><category term="Today I do" /><category term="JavaScript" /><summary type="html">바닐라 JS 강의(#4.0~4.5)</summary></entry><entry><title type="html">2021-08-02</title><link href="https://broheat.github.io//today%20i%20do/Today-I-do/" rel="alternate" type="text/html" title="2021-08-02" /><published>2021-08-02T00:00:00+09:00</published><updated>2021-08-02T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/Today%20I%20do</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/Today-I-do/">&lt;h2 id=&quot;바닐라-js-강의3338&quot;&gt;바닐라 JS 강의(#3.3~#3.8)&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://broheat.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://broheat.github.io//" rel="alternate" type="text/html" /><updated>2021-08-09T11:35:23+09:00</updated><id>https://broheat.github.io//feed.xml</id><title type="html">86년생 백수의 고군분투</title><subtitle>성장 스토리</subtitle><author><name>박형렬</name></author><entry><title type="html">2021-08-02</title><link href="https://broheat.github.io//javascript/invest/2021-08-02/" rel="alternate" type="text/html" title="2021-08-02" /><published>2021-08-09T00:00:00+09:00</published><updated>2021-08-09T00:00:00+09:00</updated><id>https://broheat.github.io//javascript/invest/2021-08-02</id><content type="html" xml:base="https://broheat.github.io//javascript/invest/2021-08-02/">&lt;h2 id=&quot;바닐라-js-강의3338&quot;&gt;바닐라 JS 강의(#3.3~#3.8)&lt;/h2&gt;
 
 &lt;p&gt;Event가 발생하면 특정 함수가 작동 할 수 있게 하려면&lt;/p&gt;
 
@@ -97,7 +48,18 @@ className이 없으면 추가가 되고, 있으면 삭제가 된다.&lt;/p&gt;
 &lt;h2 id=&quot;투자-공부&quot;&gt;투자 공부.&lt;/h2&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;전기차 충전기&lt;/code&gt;의 HS code는 8504.40으로 추측됨.&lt;br /&gt;
-시그넷이브이의 본사는 전남 영광군.&lt;/p&gt;</content><author><name>박형렬</name></author><category term="Today I do" /><category term="Invest" /><category term="JavaScript" /><summary type="html">바닐라 JS 강의(#3.3~#3.8)</summary></entry><entry><title type="html">2021-08-01</title><link href="https://broheat.github.io//today%20i%20do/Today-I-do/" rel="alternate" type="text/html" title="2021-08-01" /><published>2021-08-01T00:00:00+09:00</published><updated>2021-08-01T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/Today%20I%20do</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/Today-I-do/">&lt;h2 id=&quot;바닐라-js-강의3032&quot;&gt;바닐라 JS 강의(#3.0~#3.2).&lt;/h2&gt;
+시그넷이브이의 본사는 전남 영광군.&lt;/p&gt;</content><author><name>박형렬</name></author><category term="JavaScript" /><category term="Invest" /><summary type="html">바닐라 JS 강의(#3.3~#3.8)</summary></entry><entry><title type="html">2021-08-03</title><link href="https://broheat.github.io//javascript/2021-08-03/" rel="alternate" type="text/html" title="2021-08-03" /><published>2021-08-09T00:00:00+09:00</published><updated>2021-08-09T00:00:00+09:00</updated><id>https://broheat.github.io//javascript/2021-08-03</id><content type="html" xml:base="https://broheat.github.io//javascript/2021-08-03/">&lt;h2 id=&quot;바닐라-js-강의4045&quot;&gt;바닐라 JS 강의(#4.0~4.5)&lt;/h2&gt;
+
+&lt;p&gt;함수를 호출 할 때, function이 아니라 function()로 호출 하면 브라우저가 이 코드를 보자마자 자동으로 function을 실행시킨다.&lt;/p&gt;
+
+&lt;p&gt;모든 EventListener에서 function의 첫번째 argument는 항상 막 벌어진 일들에 대한 정보. 예를 들어, click.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onLoginSubmit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;/// 어떤 event의 기본 행동 발생하지 않도록 하는것.&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;loginForm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onLoginSubmit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>박형렬</name></author><category term="JavaScript" /><summary type="html">바닐라 JS 강의(#4.0~4.5)</summary></entry><entry><title type="html">2021-08-01</title><link href="https://broheat.github.io//javascript/invest/today-i-do/" rel="alternate" type="text/html" title="2021-08-01" /><published>2021-08-09T00:00:00+09:00</published><updated>2021-08-09T00:00:00+09:00</updated><id>https://broheat.github.io//javascript/invest/today-i-do</id><content type="html" xml:base="https://broheat.github.io//javascript/invest/today-i-do/">&lt;h2 id=&quot;바닐라-js-강의3032&quot;&gt;바닐라 JS 강의(#3.0~#3.2).&lt;/h2&gt;
 
 &lt;p&gt;Javascript로 정보를 가지고 올 수 있는 방법은 document 객체와 element를 가져오는 함수를 이용 하는 것.&lt;/p&gt;
 
@@ -136,4 +98,42 @@ sk넥실리스의 본사는 전북 정읍시&lt;/p&gt;
 SK 아이이테크놀로지는 충북 증평군 과 청주시.&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CNT 도전재&lt;/code&gt;의 HS code는 3824.99로 추측됨.&lt;br /&gt;
-나노신조재의 본사는 대전 유성구.&lt;/p&gt;</content><author><name>박형렬</name></author><category term="Today I do" /><category term="Invest" /><category term="JavaScript" /><summary type="html">바닐라 JS 강의(#3.0~#3.2).</summary></entry></feed>
+나노신조재의 본사는 대전 유성구.&lt;/p&gt;</content><author><name>박형렬</name></author><category term="JavaScript" /><category term="Invest" /><summary type="html">바닐라 JS 강의(#3.0~#3.2).</summary></entry><entry><title type="html">부자아빠 가난한 아빠 Chapter 1</title><link href="https://broheat.github.io//reading/chapter-1/" rel="alternate" type="text/html" title="부자아빠 가난한 아빠 Chapter 1" /><published>2021-08-07T00:00:00+09:00</published><updated>2021-08-07T00:00:00+09:00</updated><id>https://broheat.github.io//reading/chapter-1</id><content type="html" xml:base="https://broheat.github.io//reading/chapter-1/">&lt;p&gt;부자아빠 가난한 아빠 Chapter 1을 읽은 후&lt;/p&gt;</content><author><name>박형렬</name></author><category term="reading" /><summary type="html">부자아빠 가난한 아빠 Chapter 1을 읽은 후</summary></entry><entry><title type="html">2021-08-07</title><link href="https://broheat.github.io//today%20i%20do/Plan/" rel="alternate" type="text/html" title="2021-08-07" /><published>2021-08-07T00:00:00+09:00</published><updated>2021-08-07T00:00:00+09:00</updated><id>https://broheat.github.io//today%20i%20do/Plan</id><content type="html" xml:base="https://broheat.github.io//today%20i%20do/Plan/">&lt;h2 id=&quot;해야-할-것들&quot;&gt;해야 할 것들.&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;독서
+    &lt;ul&gt;
+      &lt;li&gt;한 챕터 읽고 정리.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;운동&lt;/li&gt;
+  &lt;li&gt;투자
+    &lt;ul&gt;
+      &lt;li&gt;삼프로 요약 정리.&lt;/li&gt;
+      &lt;li&gt;스프레드시트로 한달에 한번 자산 정리.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;코딩
+    &lt;ul&gt;
+      &lt;li&gt;Nomad coder 챌린지 도전.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>박형렬</name></author><category term="Today I do" /><category term="plan" /><summary type="html">해야 할 것들.</summary></entry><entry><title type="html">2021-08-04</title><link href="https://broheat.github.io//javascript/Today-I-do/" rel="alternate" type="text/html" title="2021-08-04" /><published>2021-08-04T00:00:00+09:00</published><updated>2021-08-04T00:00:00+09:00</updated><id>https://broheat.github.io//javascript/Today%20I%20do</id><content type="html" xml:base="https://broheat.github.io//javascript/Today-I-do/">&lt;h2 id=&quot;바닐라-js-강의46&quot;&gt;바닐라 JS 강의(#4.6)&lt;/h2&gt;
+
+&lt;p&gt;localStorage는 우리가 브라우저에 뭔가를 저장할 수 있게 하고, 나중에 가져다 쓸 수 있다.
+브라우저에 저장하는 방법은 다음과 같다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;nico&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;첫번째 인자는 key, 두번째 인자는 value.&lt;/p&gt;
+
+&lt;p&gt;브라우저에 저장 된 정보를 불러오는 방법은 다음과 같다.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;그리고 저장된 정보를 제거 하는 방법은&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>박형렬</name></author><category term="JavaScript" /><summary type="html">바닐라 JS 강의(#4.6)</summary></entry></feed>
